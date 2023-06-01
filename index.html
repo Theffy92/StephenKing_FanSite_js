@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen King Fan Site</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <main> 
+        <h1 id="Titulo">
+            Welcome to my <i>Stephen King </i>Fan Site
+            <span class="drop"></span>
+            <span class="drop"></span>
+            <span class="drop"></span>
+            <span class="drop"></span>
+            <span class="drop"></span>
+            <span class="drop"></span>
+            <span class="drop"></span>
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li id="nav-home">Home</li>
+                <li id="nav-facts"><a href="#fun">Fun Facts</a></li>
+                <li id="nav-gallery"><a href="#gallery">Images</a></li>
+            </ul>
+        </nav>
+        <section class="transp_Box">
+            <p>In this website you'll find insteresting fun facts about The Master of Horror</p>
+        </section>
+        <section class="transp_Box">
+            <h1>coso</h1>
+            <p>loremLorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellendus mollitia ea repellat? Rerum cumque magni non aspernatur doloremque quo quas a unde aliquid? Dolor sed ut porro ea ratione!</p>
+
+        </section>
+        <section class="transp_Box" id="fun">
+            <h2 id="fun__heading"> Hola</h2>
+            <p>loremLorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellendus mollitia ea repellat? Rerum cumque magni non aspernatur doloremque quo quas a unde aliquid? Dolor sed ut porro ea ratione!</p>
+            <p>loremLorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellendus mollitia ea repellat? Rerum cumque magni non aspernatur doloremque quo quas a unde aliquid? Dolor sed ut porro ea ratione!</p>
+            <p>loremLorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellendus mollitia ea repellat? Rerum cumque magni non aspernatur doloremque quo quas a unde aliquid? Dolor sed ut porro ea ratione!</p>
+        </section>
+        <div class="transp_Box slide-container" id="gallery">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/stephen-king-not-writing-more-it-pennywise-books-prequel-series.webp" alt="">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/tim-curry-it-pennywise-social.avif" alt="">
+            </div>
+
+            <!-- Next and previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a href="next" onclick="plusSlides(1)"></a>
+        </div>
+        <br>
+        <!-- The dots/circles-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+    </main>
+    <script src="src/index.js"></script>
 </body>
 </html>
